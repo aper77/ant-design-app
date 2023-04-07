@@ -1,0 +1,80 @@
+.marketsContainer {
+  height: 670px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 23px;
+  background-color: white;
+}
+
+.currentDiv {
+  height: 100%;
+  border: 1px solid #dfe1e5;
+  margin: 50px;
+  border-radius: 23px;
+  background-color: #dfe1e5;
+  transition: all 0.3s ease-in-out;
+  color: #001529;
+  padding: 20px;
+}
+
+.currentDiv:hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 2px;
+  background-color: #1976ff;
+  border: 1px solid #1976ff;
+  color: #dfe1e5;
+  padding: 20px;
+}
+
+.currentDivNoChacked:hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 2px;
+  background-color: #ff4d4f !important;
+  border: 1px solid #ff4d4f !important;
+  color: #dfe1e5;
+  padding: 20px;
+}
+
+.currentDiv .info {
+  transition: all 0.3s ease-in-out;
+  margin-left: 25%;
+  margin-top: -10px;
+  color: #dfe1e5;
+  display: none;
+}
+
+.currentDiv:hover .info {
+  transition: all 0.3s ease-in-out;
+  margin-left: 25%;
+  margin-top: -10px;
+  display: block;
+  color: #dfe1e5;
+}
+
+.currentDiv:hover label {
+  transition: all 0.3s ease-in-out;
+  color: #dfe1e5 !important;
+}
+
+.currentDiv label {
+  transition: all 0.3s ease-in-out;
+  color: #001529 !important;
+}
+
+.marketProducts {
+  transition: all 0.3s ease-in-out;
+  display: none;
+  padding: 1px;
+}
+
+.currentDiv:hover .marketProducts {
+  transition: all 0.3s ease-in-out;
+  color: #dfe1e5 !important;
+  display: block;
+}
+
+.marketChekbox {
+  margin-left: 10px;
+}

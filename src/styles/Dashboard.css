@@ -1,0 +1,15 @@
+.sidebar {
+  padding-top: 60px !important;
+}
+
+.header-item {
+  color: #ffffff;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: #001529;
+  border-color: #001529;
+}
+
+.checkbox-left {
+  margin-left: 115px;
+}
